@@ -185,6 +185,9 @@ button{font:inherit;color:inherit;border:0;background:none;cursor:pointer}
 .s2{background:linear-gradient(135deg,var(--sky-deep),#7FB4E4)}
 .s3{background:linear-gradient(135deg,var(--mint-deep),#84CDB6)}
 .s4{background:linear-gradient(135deg,var(--apricot-deep),#F0B583)}
+.s5{background:linear-gradient(135deg,#7E6BD6,#7FB4E4)}
+.cert-wide{grid-column:1/-1}
+.cert-score{margin-left:auto;font-family:var(--mono);font-size:.79rem;padding:7px 14px;border-radius:999px;background:rgba(168,224,206,.34);color:var(--mint-deep);white-space:nowrap}
 .cert b{display:block;font-size:.95rem;font-weight:600}
 .cert span{font-size:.83rem;color:var(--ink-soft)}
 
