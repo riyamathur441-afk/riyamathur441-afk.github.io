@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects — Riya Mathur</title>
+<meta name="description" content="Campus Course &amp; Records Manager, EdgeAI Soybean Virus Detection, Aadhaar Drishti and LifeOS Dashboard.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,300..700,0..100,0..1&family=Plus+Jakarta+Sans:wght@300..800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="aurora">
+  <div class="blob blob-a"></div>
+  <div class="blob blob-b"></div>
+  <div class="blob blob-c"></div>
+</div>
+<div class="grain"></div>
+
+<div class="nav-shell">
+  <nav class="nav glass" aria-label="Main navigation">
+    <a class="nav-mark" href="index.html">Riya Mathur</a>
+    <a href="index.html">Home</a>
+    <a href="experience.html">Experience</a>
+    <a href="projects.html" class="on" aria-current="page">Projects</a>
+    <a href="education.html">Education</a>
+    <a href="skills.html">Skills</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</div>
+
+<main class="page wrap band">
+  <div class="head reveal">
+    <span class="eyebrow">Projects</span>
+    <h1>Four things worth opening</h1>
+    <p class="band-lede">From a Java domain model with CSV persistence to a classifier small enough to run on a solar-powered Raspberry Pi in a field.</p>
+  </div>
+
+  <div class="grid-2">
+    <article class="proj glass reveal">
+      <span class="kind k-java">Java · OOP</span>
+      <h3>Campus Course &amp; Records Manager</h3>
+      <p class="sub">A Java console application managing student records, course catalogues and enrolment workflows.</p>
+      <ul class="points">
+        <li>Modelled students, courses and enrollments as reusable classes using encapsulation, inheritance and interfaces, keeping business rules inside the domain objects.</li>
+        <li>Implemented CSV-based persistence with file I/O for reliable save and load across sessions.</li>
+      </ul>
+      <div class="stack">
+        <span class="tag">Java</span><span class="tag">OOP</span><span class="tag">File I/O</span><span class="tag">CSV</span>
+      </div>
+      <a class="repo" href="https://github.com/riyamathur441-afk/" target="_blank" rel="noopener">View on GitHub
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M7 17L17 7M9 7h8v8"/></svg>
+      </a>
+    </article>
+
+    <article class="proj glass reveal">
+      <span class="kind k-ml">Edge AI · Computer Vision</span>
+      <h3>EdgeAI Soybean Virus Detection</h3>
+      <p class="sub">A lightweight MobileNetV2 classifier for soybean leaf disease, tuned to run in the field rather than in a notebook.</p>
+      <ul class="points">
+        <li>Paired transfer learning with progressive layer unfreezing and an extensive augmentation pipeline to hold accuracy on a limited-size dataset.</li>
+        <li>Optimised the trained model for real-time inference on a solar-powered Raspberry Pi Zero 2 W, profiling memory footprint and per-image latency on-device.</li>
+      </ul>
+      <div class="stack">
+        <span class="tag">Python</span><span class="tag">TensorFlow</span><span class="tag">Keras</span><span class="tag">Transfer Learning</span>
+      </div>
+      <a class="repo" href="https://github.com/riyamathur441-afk/" target="_blank" rel="noopener">View on GitHub
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M7 17L17 7M9 7h8v8"/></svg>
+      </a>
+    </article>
+
+    <article class="proj glass reveal">
+      <span class="kind k-data">Data · Team project</span>
+      <h3>Aadhaar Drishti</h3>
+      <p class="sub">A dataset analytics platform that ingests and structures large-scale public datasets for downstream analysis.</p>
+      <ul class="points">
+        <li>Contributed to the ingestion layer that turns raw public datasets into a queryable structure.</li>
+        <li>Designed processing pipelines to clean and normalise heterogeneous records so sources can be queried consistently.</li>
+      </ul>
+      <div class="stack">
+        <span class="tag">Python</span><span class="tag">Data pipelines</span><span class="tag">Analytics</span>
+      </div>
+      <a class="repo" href="https://github.com/riyamathur441-afk/" target="_blank" rel="noopener">View on GitHub
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M7 17L17 7M9 7h8v8"/></svg>
+      </a>
+    </article>
+
+    <article class="proj glass reveal">
+      <span class="kind k-web">Web · Team project</span>
+      <h3>LifeOS Dashboard</h3>
+      <p class="sub">Task management and health analytics brought together in a single productivity interface.</p>
+      <ul class="points">
+        <li>Integrated Chart.js to render task-completion and health-metric trends from raw activity logs.</li>
+        <li>Delegated session handling to Google OAuth 2.0 so the app never stores custom credentials.</li>
+      </ul>
+      <div class="stack">
+        <span class="tag">JavaScript</span><span class="tag">Chart.js</span><span class="tag">OAuth 2.0</span>
+      </div>
+      <a class="repo" href="https://github.com/riyamathur441-afk/" target="_blank" rel="noopener">View on GitHub
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M7 17L17 7M9 7h8v8"/></svg>
+      </a>
+    </article>
+  </div>
+
+  <nav class="pager reveal" aria-label="Page navigation">
+    <a href="experience.html"><small>Back</small><b>Experience</b></a>
+    <a class="next" href="education.html"><small>Next</small><b>Education</b></a>
+  </nav>
+</main>
+
+<footer class="wrap foot">
+  <span>© <span data-year></span> Riya Mathur · Bhopal, India</span>
+  <div class="foot-links">
+    <a href="https://github.com/riyamathur441-afk/" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://www.linkedin.com/in/riya-mathur-384293369/" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="mailto:riyamathur441@gmail.com">Email</a>
+  </div>
+</footer>
+
+<div class="toast glass" id="toast" role="status" aria-live="polite"></div>
+<script src="script.js"></script>
+</body>
+</html>
